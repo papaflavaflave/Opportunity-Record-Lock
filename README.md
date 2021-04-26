@@ -10,7 +10,7 @@
 <a href="https://githubsfdeploy-sandbox.herokuapp.com/app/githubdeploy/papaflavaflave/Opportunity-Record-Lock">
   Deploy to Sandbox
 </a>
-
+</br>
 <a href="https://githubsfdeploy.herokuapp.com/app/githubdeploy/papaflavaflave/Opportunity-Record-Lock">
   Deploy to Production
 </a>
