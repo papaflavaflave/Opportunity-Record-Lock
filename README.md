@@ -10,7 +10,7 @@
 https://githubsfdeploy.herokuapp.com/app/githubdeploy/papaflavaflave/Opportunity-Record-Lock
 
 
-<a href="https://githubsfdeploy.herokuapp.com?owner=papaflavaflave&repo=Opportunity-Record-Lock">
+<a href="https://githubsfdeploy.herokuapp.com/app/githubdeploy/papaflavaflave/Opportunity-Record-Lock>
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
