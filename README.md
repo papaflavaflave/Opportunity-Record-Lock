@@ -8,11 +8,9 @@
 
 
 <a href="https://githubsfdeploy-sandbox.herokuapp.com/app/githubdeploy/papaflavaflave/Opportunity-Record-Lock">
-  <img alt="Deploy to Sandbox!"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+  Deploy to Sandbox
 </a>
 
 <a href="https://githubsfdeploy.herokuapp.com/app/githubdeploy/papaflavaflave/Opportunity-Record-Lock">
-  <img alt="Deploy to Production!"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+  Deploy to Production
 </a>
