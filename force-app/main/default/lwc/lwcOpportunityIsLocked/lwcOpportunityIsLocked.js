@@ -3,6 +3,9 @@ import checkRecordLock from '@salesforce/apex/IsRecordLocked.checkRecordLock';
 export default class ModalPopupLWC extends LightningElement {
     //Boolean tracked variable to indicate if modal is open or not default value is false as modal is closed when page is loaded 
     @track isModalOpen = false;
+    @track isOppLocked = false;
+    @api displayModal;
+    @api displayCard;
     @api recordId;
 
     connectedCallback(){
@@ -14,6 +17,7 @@ export default class ModalPopupLWC extends LightningElement {
         .then(result => {
             if(result) {
                 this.isModalOpen = true;
+                this.isOppLocked = true;
                 console.log('Opp is Locked!!!');
             } else {
                 console.log('Opp is not locked');

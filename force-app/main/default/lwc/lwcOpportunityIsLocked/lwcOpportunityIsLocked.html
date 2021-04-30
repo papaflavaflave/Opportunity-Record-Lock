@@ -1,5 +1,17 @@
 <template>
+    <template if:true={displayCard}>
+    <template if:true={isOppLocked}>
+        <lightning-card title="Opportunity Locked!" icon-name="utility:lock">
+            <div class="slds-card__body_inner">
+                <h2 class="slds-text-heading_small">
+                    This Opportunity cannot be edited because it is locked. If you'd like to make changes, please contact {contactPerson}
+                </h2>
+            </div>
+        </lightning-card>
+    </template>
+    </template>
     <!--Use template if:true to display/hide popup based on isModalOpen value--> 
+    <template if:true={displayModal}>
     <template if:true={isModalOpen}>
         <!-- Modal/Popup Box LWC starts here -->
         <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
@@ -29,4 +41,5 @@
         </section>
         <div class="slds-backdrop slds-backdrop_open"></div>
     </template>
+</template>
  </template>

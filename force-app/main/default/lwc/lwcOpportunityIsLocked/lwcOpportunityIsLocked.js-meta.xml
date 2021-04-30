@@ -5,4 +5,12 @@
     <targets> 
         <target>lightning__RecordPage</target>
     </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="displayModal" type="Boolean" label="Display Popup Modal?"
+                description="If set to true, a modal will be displayed if Opportunity is locked" default="false" />
+            <property name="displayCard" type="Boolean" label="Display Card?"
+                description="If set to true, a card will be displayed if Opportunity is locked" default="false"/>
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>
