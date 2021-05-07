@@ -4,7 +4,7 @@
         <lightning-card title="Opportunity Locked!" icon-name="utility:lock">
             <div class="slds-card__body_inner">
                 <h2 class="slds-text-heading_small">
-                    This Opportunity cannot be edited because it is locked. If you'd like to make changes, please contact your Admin
+                    {displayText}
                 </h2>
             </div>
         </lightning-card>
@@ -29,7 +29,7 @@
                 </header>
                 <!-- Modal/Popup Box LWC body starts here -->
                 <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
-                    <p><b>This Opportunity cannot be edited because it is locked. 
+                    <p><b>{displayText}
                     </b></p>
                 </div>
                 <!-- Modal/Popup Box LWC footer starts here -->

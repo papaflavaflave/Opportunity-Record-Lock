@@ -11,6 +11,8 @@
                 description="If set to true, a modal will be displayed if Opportunity is locked" default="false" />
             <property name="displayCard" type="Boolean" label="Display Card?"
                 description="If set to true, a card will be displayed if Opportunity is locked" default="false"/>
+            <property name="displayText" type="String" label="Display Text"
+                description="Text to be displayed in card and modal" default=""/>
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>

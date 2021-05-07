@@ -6,6 +6,7 @@ export default class ModalPopupLWC extends LightningElement {
     @track isOppLocked = false;
     @api displayModal;
     @api displayCard;
+    @api displayText;
     @api recordId;
 
     connectedCallback(){
