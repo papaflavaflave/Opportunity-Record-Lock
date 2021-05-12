@@ -1,6 +1,6 @@
 <template>
-    <template if:true={displayCard}>
     <template if:true={isOppLocked}>
+    <template if:true={displayCard}>
         <lightning-card title="Opportunity Locked!" icon-name="utility:lock">
             <div class="slds-card__body_inner">
                 <h2 class="slds-text-heading_small">
@@ -8,7 +8,6 @@
                 </h2>
             </div>
         </lightning-card>
-    </template>
     </template>
     <!--Use template if:true to display/hide popup based on isModalOpen value--> 
     <template if:true={displayModal}>
@@ -41,5 +40,6 @@
         </section>
         <div class="slds-backdrop slds-backdrop_open"></div>
     </template>
+</template>
 </template>
  </template>
